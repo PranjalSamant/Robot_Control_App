@@ -1,0 +1,18 @@
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid place(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:90:35:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kmoveit_msgs::Grasp&[m[K’ {aka ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >&[m[K’} from expression of type ‘[01m[Kmoveit_msgs::PlaceLocation_<std::allocator<void> >::_post_place_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’}
+   90 |     openGripper(place_location[0].post_place_posture); // Adjusted to use moveit_msgs::Grasp
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:11:38:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid openGripper(moveit_msgs::Grasp&)[m[K’
+   11 | void openGripper([01;36m[Kmoveit_msgs::Grasp& grasp[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid gripperOpenCallback(const ConstPtr&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:163:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[Kjoint_state[m[K’
+  163 |     group_ptr->getCurrentState().[01;31m[Kjoint_state[m[K = grasp.pre_grasp_posture;
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid gripperCloseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:171:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit::core::RobotStatePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<moveit::core::RobotState>[m[K’} has no member named ‘[01m[Kjoint_state[m[K’
+  171 |     group_ptr->getCurrentState().[01;31m[Kjoint_state[m[K = grasp.pre_grasp_posture;
+      |                                  [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hello_publisher.dir/build.make:63: CMakeFiles/hello_publisher.dir/scripts/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:784: CMakeFiles/hello_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

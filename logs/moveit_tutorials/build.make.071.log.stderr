@@ -1,0 +1,8 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:21:1:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K{{4.0000000000000002e-1, 0.0, 4.0000000000000002e-1}, {0.0, 0.0, 0.0, 1.0e+0}}[m[K’ from ‘[01m[K<brace-enclosed initializer list>[m[K’ to ‘[01m[Kconst Pose[m[K’ {aka ‘[01m[Kconst geometry_msgs::Pose_<std::allocator<void> >[m[K’}
+   21 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+      | [01;31m[K|[m[K
+      | [01;31m[K<brace-enclosed initializer list>[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

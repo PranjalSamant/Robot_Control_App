@@ -1,0 +1,15 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:137:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  137 |     std::[01;31m[Kthread[m[K continuous_movement_thread(continuousMovement);
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:6:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::thread[m[K’ is defined in header ‘[01m[K<thread>[m[K’; did you forget to ‘[01m[K#include <thread>[m[K’?
+    5 | #include <moveit/planning_scene_interface/planning_scene_interface.h>
+  +++ |+[32m[K#include <thread>[m[K
+    6 | #include <moveit_msgs/PlanningScene.h>
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:142:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontinuous_movement_thread[m[K’ was not declared in this scope; did you mean ‘[01m[KcontinuousMovement[m[K’?
+  142 |     [01;31m[Kcontinuous_movement_thread[m[K.join();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KcontinuousMovement[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

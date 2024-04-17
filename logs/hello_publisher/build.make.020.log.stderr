@@ -1,0 +1,25 @@
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:277:36:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  277 | void helloCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:277:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  277 | void helloCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:277:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  277 | void helloCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                   [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                    [32m[K)[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:277:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  277 | void helloCallback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+      |                                                      [01;31m[K^~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:313:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+  313 |   ros::Subscriber sub = nh.subscribe<std_msgs::[01;31m[KString[m[K>("hello", 10, helloCallback);
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:313:48:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/doc/pick_place/src/pick_place_tutorial.cpp:313:69:[m[K [01;31m[Kerror: [m[K‘[01m[KhelloCallback[m[K’ was not declared in this scope
+  313 |   ros::Subscriber sub = nh.subscribe<std_msgs::String>("hello", 10, [01;31m[KhelloCallback[m[K);
+      |                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/pick_place_tutorial.dir/build.make:63: doc/pick_place/CMakeFiles/pick_place_tutorial.dir/src/pick_place_tutorial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4736: doc/pick_place/CMakeFiles/pick_place_tutorial.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

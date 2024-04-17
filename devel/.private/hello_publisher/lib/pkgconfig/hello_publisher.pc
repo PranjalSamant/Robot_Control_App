@@ -1,0 +1,8 @@
+prefix=/home/pranjal/ws_moveit/devel/.private/hello_publisher
+
+Name: hello_publisher
+Description: Description of hello_publisher
+Version: 0.0.0
+Cflags: -I/home/pranjal/ws_moveit/devel/.private/hello_publisher/include
+Libs: -L${prefix}/lib 
+Requires: message_generation rospy

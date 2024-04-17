@@ -1,0 +1,8 @@
+prefix=/home/pranjal/ws_moveit/install
+
+Name: hello_publisher
+Description: Description of hello_publisher
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_generation rospy

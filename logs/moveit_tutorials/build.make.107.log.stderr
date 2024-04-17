@@ -1,0 +1,8 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:161:19:[m[K [01;31m[Kerror: [m[K‘[01m[KINITIAL_POSE_FETCH_DELAY[m[K’ was not declared in this scope; did you mean ‘[01m[KINTIAL_POSE_FETCH_DELAY[m[K’?
+  161 |     ros::Duration([01;31m[KINITIAL_POSE_FETCH_DELAY[m[K).sleep();
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[KINTIAL_POSE_FETCH_DELAY[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

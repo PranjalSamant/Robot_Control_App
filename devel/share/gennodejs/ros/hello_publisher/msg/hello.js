@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/hello_publisher/share/gennodejs/ros/hello_publisher/msg/hello.js

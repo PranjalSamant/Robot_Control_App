@@ -1,0 +1,4 @@
+<launch>
+  <node name="hello_publisher_node" pkg="hello_publisher" type="hello_publisher.py" output="screen" />
+</launch>
+

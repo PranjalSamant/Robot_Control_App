@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/hello_publisher/share/hello_publisher/cmake/hello_publisherConfig.cmake

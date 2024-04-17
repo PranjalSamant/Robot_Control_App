@@ -1,0 +1,122 @@
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:161 (add_subdirectory):
+  add_subdirectory given source "doc/controller_configuration" which is not
+  an existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:162 (add_subdirectory):
+  add_subdirectory given source "doc/hand_eye_calibration" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:163 (add_subdirectory):
+  add_subdirectory given source "doc/interactivity" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:164 (add_subdirectory):
+  add_subdirectory given source "doc/kinematics" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:165 (add_subdirectory):
+  add_subdirectory given source "doc/motion_planning_api" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:166 (add_subdirectory):
+  add_subdirectory given source "doc/motion_planning_pipeline" which is not
+  an existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:167 (add_subdirectory):
+  add_subdirectory given source "doc/move_group_interface" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:168 (add_subdirectory):
+  add_subdirectory given source "doc/move_group_python_interface" which is
+  not an existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:169 (add_subdirectory):
+  add_subdirectory given source "doc/perception_pipeline" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:170 (add_subdirectory):
+  add_subdirectory given source "doc/pick_place" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:171 (add_subdirectory):
+  add_subdirectory given source "doc/planning" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:172 (add_subdirectory):
+  add_subdirectory given source "doc/planning_scene" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:173 (add_subdirectory):
+  add_subdirectory given source "doc/planning_scene_ros_api" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:174 (add_subdirectory):
+  add_subdirectory given source "doc/robot_model_and_robot_state" which is
+  not an existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:175 (add_subdirectory):
+  add_subdirectory given source "doc/state_display" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:176 (add_subdirectory):
+  add_subdirectory given source "doc/subframes" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:177 (add_subdirectory):
+  add_subdirectory given source "doc/tests" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:178 (add_subdirectory):
+  add_subdirectory given source "doc/trajopt_planner" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:179 (add_subdirectory):
+  add_subdirectory given source
+  "doc/creating_moveit_plugins/lerp_motion_planner" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:180 (add_subdirectory):
+  add_subdirectory given source "doc/moveit_cpp" which is not an existing
+  directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:181 (add_subdirectory):
+  add_subdirectory given source "doc/collision_environments" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:182 (add_subdirectory):
+  add_subdirectory given source "doc/visualizing_collisions" which is not an
+  existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:183 (add_subdirectory):
+  add_subdirectory given source "doc/bullet_collision_checker" which is not
+  an existing directory.
+
+
+[31m[1mCMake Error[0m at /home/pranjal/ws_moveit/src/hello_publisher/CMakeLists.txt:184 (add_subdirectory):
+  add_subdirectory given source "doc/mesh_filter" which is not an existing
+  directory.
+
+
+make: *** [Makefile:616: cmake_check_build_system] Error 1

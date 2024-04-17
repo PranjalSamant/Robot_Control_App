@@ -1,0 +1,47 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveRight()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontinue_movement[m[K’ was not declared in this scope
+   69 |     [01;31m[Kcontinue_movement[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:76:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+   76 |         moveit::planning_interface::MoveItErrorCode [01;35m[Kresult[m[K = group_ptr->move();
+      |                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveLeft()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontinue_movement[m[K’ was not declared in this scope
+   87 |     [01;31m[Kcontinue_movement[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:94:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+   94 |         moveit::planning_interface::MoveItErrorCode [01;35m[Kresult[m[K = group_ptr->move();
+      |                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveUp()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontinue_movement[m[K’ was not declared in this scope
+  105 |     [01;31m[Kcontinue_movement[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:112:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+  112 |         moveit::planning_interface::MoveItErrorCode [01;35m[Kresult[m[K = group_ptr->move();
+      |                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveDown()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:123:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontinue_movement[m[K’ was not declared in this scope
+  123 |     [01;31m[Kcontinue_movement[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:130:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K-Wdeprecated-declarations[m[K]
+  130 |         moveit::planning_interface::MoveItErrorCode [01;35m[Kresult[m[K = group_ptr->move();
+      |                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:64:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   64 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

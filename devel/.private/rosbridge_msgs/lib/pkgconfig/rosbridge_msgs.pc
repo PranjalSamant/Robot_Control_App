@@ -1,0 +1,8 @@
+prefix=/home/pranjal/ws_moveit/devel/.private/rosbridge_msgs
+
+Name: rosbridge_msgs
+Description: Description of rosbridge_msgs
+Version: 0.11.17
+Cflags: -I/home/pranjal/ws_moveit/devel/.private/rosbridge_msgs/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

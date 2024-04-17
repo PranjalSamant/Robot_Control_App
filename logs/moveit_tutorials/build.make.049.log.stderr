@@ -1,0 +1,35 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid helloCallback(const ConstPtr&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveRight[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit[m[K’?
+   22 |         [01;31m[KmoveRight[m[K();
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kmoveit[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveLeft[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit[m[K’?
+   25 |         [01;31m[KmoveLeft[m[K();
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kmoveit[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveUp[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit[m[K’?
+   28 |         [01;31m[KmoveUp[m[K();
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kmoveit[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveDown[m[K’ was not declared in this scope
+   31 |         [01;31m[KmoveDown[m[K();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveRight()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:50:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait[m[K’
+   50 |         group_ptr->move().[01;31m[Kwait[m[K(group_ptr->getCurrentState()->getRobotModel()->getModelFrame(), 5.0);
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveLeft()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:63:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait[m[K’
+   63 |         group_ptr->move().[01;31m[Kwait[m[K(group_ptr->getCurrentState()->getRobotModel()->getModelFrame(), 5.0);
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveUp()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:76:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait[m[K’
+   76 |         group_ptr->move().[01;31m[Kwait[m[K(group_ptr->getCurrentState()->getRobotModel()->getModelFrame(), 5.0);
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid moveDown()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:89:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::core::MoveItErrorCode[m[K’ has no member named ‘[01m[Kwait[m[K’
+   89 |         group_ptr->move().[01;31m[Kwait[m[K(group_ptr->getCurrentState()->getRobotModel()->getModelFrame(), 5.0);
+      |                           [01;31m[K^~~~[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

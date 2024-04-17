@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/franka_visualization/lib/pkgconfig/franka_visualization.pc

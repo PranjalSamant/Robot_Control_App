@@ -1,0 +1,135 @@
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid pick(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:60:26:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Ktrajectory_msgs::JointTrajectory&[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >&[m[K’} from expression of type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<moveit_msgs::Grasp_<std::allocator<void> > >, moveit_msgs::Grasp_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >[m[K’}
+   60 |     openGripper(grasps[0][01;31m[K)[m[K; // Adjusted to use moveit_msgs::Grasp
+      |                          [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:11:52:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid openGripper(trajectory_msgs::JointTrajectory&)[m[K’
+   11 | void openGripper([01;36m[Ktrajectory_msgs::JointTrajectory& joint_trajectory[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid gripperOpenCallback(const ConstPtr&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:163:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setJointValueTarget(moveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type&)[m[K’
+  163 |     group_ptr->setJointValueTarget(grasp.pre_grasp_posture[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:376:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::vector<double>&)[m[K’
+  376 |   bool [01;36m[KsetJointValueTarget[m[K(const std::vector<double>& group_variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:376:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<double>&[m[K’
+  376 |   bool setJointValueTarget([01;36m[Kconst std::vector<double>& group_variable_values[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:393:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::map<std::__cxx11::basic_string<char>, double>&)[m[K’
+  393 |   bool [01;36m[KsetJointValueTarget[m[K(const std::map<std::string, double>& variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:393:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, double>&[m[K’
+  393 |   bool setJointValueTarget([01;36m[Kconst std::map<std::string, double>& variable_values[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:410:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<double>&)[m[K’
+  410 |   bool [01;36m[KsetJointValueTarget[m[K(const std::vector<std::string>& variable_names, const std::vector<double>& variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:410:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:421:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const moveit::core::RobotState&)[m[K’
+  421 |   bool [01;36m[KsetJointValueTarget[m[K(const moveit::core::RobotState& robot_state);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:421:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+  421 |   bool setJointValueTarget([01;36m[Kconst moveit::core::RobotState& robot_state[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:434:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const string&, const std::vector<double>&)[m[K’
+  434 |   bool [01;36m[KsetJointValueTarget[m[K(const std::string& joint_name, const std::vector<double>& values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:434:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:447:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const string&, double)[m[K’
+  447 |   bool [01;36m[KsetJointValueTarget[m[K(const std::string& joint_name, double value);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:447:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:459:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const JointState&)[m[K’
+  459 |   bool [01;36m[KsetJointValueTarget[m[K(const sensor_msgs::JointState& state);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:459:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst JointState&[m[K’ {aka ‘[01m[Kconst sensor_msgs::JointState_<std::allocator<void> >&[m[K’}
+  459 |   bool setJointValueTarget([01;36m[Kconst sensor_msgs::JointState& state[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:472:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const Pose&, const string&)[m[K’
+  472 |   bool [01;36m[KsetJointValueTarget[m[K(const geometry_msgs::Pose& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:472:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Pose_<std::allocator<void> >&[m[K’}
+  472 |   bool setJointValueTarget([01;36m[Kconst geometry_msgs::Pose& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:485:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const PoseStamped&, const string&)[m[K’
+  485 |   bool [01;36m[KsetJointValueTarget[m[K(const geometry_msgs::PoseStamped& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:485:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’}
+  485 |   bool setJointValueTarget([01;36m[Kconst geometry_msgs::PoseStamped& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:498:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const Isometry3d&, const string&)[m[K’
+  498 |   bool [01;36m[KsetJointValueTarget[m[K(const Eigen::Isometry3d& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:498:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  498 |   bool setJointValueTarget([01;36m[Kconst Eigen::Isometry3d& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid gripperCloseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:170:25:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kmoveit_msgs::Grasp&[m[K’ {aka ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >&[m[K’} from expression of type ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’}
+  170 |     closedGripper([01;31m[Kgrasp.pre_grasp_posture[m[K);
+      |                   [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:24:40:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid closedGripper(moveit_msgs::Grasp&)[m[K’
+   24 | void closedGripper([01;36m[Kmoveit_msgs::Grasp& grasp[m[K)
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:171:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::setJointValueTarget(moveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type&)[m[K’
+  171 |     group_ptr->setJointValueTarget(grasp.pre_grasp_posture[01;31m[K)[m[K;
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:4[m[K:
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:376:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::vector<double>&)[m[K’
+  376 |   bool [01;36m[KsetJointValueTarget[m[K(const std::vector<double>& group_variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:376:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::vector<double>&[m[K’
+  376 |   bool setJointValueTarget([01;36m[Kconst std::vector<double>& group_variable_values[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:393:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::map<std::__cxx11::basic_string<char>, double>&)[m[K’
+  393 |   bool [01;36m[KsetJointValueTarget[m[K(const std::map<std::string, double>& variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:393:65:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::map<std::__cxx11::basic_string<char>, double>&[m[K’
+  393 |   bool setJointValueTarget([01;36m[Kconst std::map<std::string, double>& variable_values[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:410:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<double>&)[m[K’
+  410 |   bool [01;36m[KsetJointValueTarget[m[K(const std::vector<std::string>& variable_names, const std::vector<double>& variable_values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:410:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:421:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const moveit::core::RobotState&)[m[K’
+  421 |   bool [01;36m[KsetJointValueTarget[m[K(const moveit::core::RobotState& robot_state);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:421:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst moveit::core::RobotState&[m[K’
+  421 |   bool setJointValueTarget([01;36m[Kconst moveit::core::RobotState& robot_state[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:434:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const string&, const std::vector<double>&)[m[K’
+  434 |   bool [01;36m[KsetJointValueTarget[m[K(const std::string& joint_name, const std::vector<double>& values);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:434:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:447:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const string&, double)[m[K’
+  447 |   bool [01;36m[KsetJointValueTarget[m[K(const std::string& joint_name, double value);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:447:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:459:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const JointState&)[m[K’
+  459 |   bool [01;36m[KsetJointValueTarget[m[K(const sensor_msgs::JointState& state);
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:459:59:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst JointState&[m[K’ {aka ‘[01m[Kconst sensor_msgs::JointState_<std::allocator<void> >&[m[K’}
+  459 |   bool setJointValueTarget([01;36m[Kconst sensor_msgs::JointState& state[m[K);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:472:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const Pose&, const string&)[m[K’
+  472 |   bool [01;36m[KsetJointValueTarget[m[K(const geometry_msgs::Pose& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:472:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Pose&[m[K’ {aka ‘[01m[Kconst geometry_msgs::Pose_<std::allocator<void> >&[m[K’}
+  472 |   bool setJointValueTarget([01;36m[Kconst geometry_msgs::Pose& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:485:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const PoseStamped&, const string&)[m[K’
+  485 |   bool [01;36m[KsetJointValueTarget[m[K(const geometry_msgs::PoseStamped& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:485:62:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst PoseStamped&[m[K’ {aka ‘[01m[Kconst geometry_msgs::PoseStamped_<std::allocator<void> >&[m[K’}
+  485 |   bool setJointValueTarget([01;36m[Kconst geometry_msgs::PoseStamped& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:498:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool moveit::planning_interface::MoveGroupInterface::setJointValueTarget(const Isometry3d&, const string&)[m[K’
+  498 |   bool [01;36m[KsetJointValueTarget[m[K(const Eigen::Isometry3d& eef_pose, const std::string& end_effector_link = "");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:498:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >::_pre_grasp_posture_type[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  498 |   bool setJointValueTarget([01;36m[Kconst Eigen::Isometry3d& eef_pose[m[K, const std::string& end_effector_link = "");
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hello_publisher.dir/build.make:63: CMakeFiles/hello_publisher.dir/scripts/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:784: CMakeFiles/hello_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

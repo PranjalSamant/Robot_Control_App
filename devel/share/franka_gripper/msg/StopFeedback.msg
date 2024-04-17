@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/franka_gripper/share/franka_gripper/msg/StopFeedback.msg

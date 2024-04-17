@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/rosapi/share/roseus/ros/rosapi/srv/ServiceType.l

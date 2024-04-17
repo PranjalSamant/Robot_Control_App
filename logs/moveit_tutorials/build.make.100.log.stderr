@@ -1,0 +1,8 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:155:5:[m[K [01;31m[Kerror: [m[K‘[01m[KINTIAL_POSE[m[K’ was not declared in this scope; did you mean ‘[01m[KINITIAL_POSE[m[K’?
+  155 |     [01;31m[KINTIAL_POSE[m[K = group_ptr->getCurrentPose().pose;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[KINITIAL_POSE[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

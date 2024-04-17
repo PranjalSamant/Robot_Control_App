@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/hello_publisher/share/roseus/ros/hello_publisher/msg/hello.l

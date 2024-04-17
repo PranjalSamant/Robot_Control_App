@@ -1,0 +1,6 @@
+devel_space: /home/pranjal/ws_moveit/devel
+install: false
+install_space: /home/pranjal/ws_moveit/install
+profile: default
+source_space: /home/pranjal/ws_moveit/src
+workspace: /home/pranjal/ws_moveit

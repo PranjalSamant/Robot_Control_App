@@ -1,0 +1,35 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:18:1:[m[K [01;31m[Kerror: [m[K‘[01m[KINTIAL_POSE[m[K’ does not name a type
+   18 | [01;31m[KINTIAL_POSE[m[K = group_ptr->getCurrentPose().pose
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid setRobotSpeed(const string&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   35 |         [01;31m[Kgroup_ptr[m[K->setMaxVelocityScalingFactor(0.1);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   37 |         [01;31m[Kgroup_ptr[m[K->setMaxVelocityScalingFactor(0.05);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   39 |         [01;31m[Kgroup_ptr[m[K->setMaxVelocityScalingFactor(0.01);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid stopRobot()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   77 |     [01;31m[Kgroup_ptr[m[K->stop();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid resetRobot()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   88 |     [01;31m[Kgroup_ptr[m[K->setPoseTarget(INITIAL_POSE);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:88:30:[m[K [01;31m[Kerror: [m[K‘[01m[KINITIAL_POSE[m[K’ was not declared in this scope
+   88 |     group_ptr->setPoseTarget([01;31m[KINITIAL_POSE[m[K);
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kvoid continuousMovement()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:123:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+  123 |         geometry_msgs::Pose target_pose = [01;31m[Kgroup_ptr[m[K->getCurrentPose().pose;
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/continous.cpp:151:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+  151 |     [01;31m[Kgroup_ptr[m[K = &group;
+      |     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/continous.dir/build.make:63: doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4365: doc/pick_place/CMakeFiles/continous.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

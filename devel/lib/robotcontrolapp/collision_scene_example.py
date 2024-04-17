@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/robotcontrolapp/lib/robotcontrolapp/collision_scene_example.py

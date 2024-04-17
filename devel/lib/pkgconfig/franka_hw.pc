@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/franka_hw/lib/pkgconfig/franka_hw.pc

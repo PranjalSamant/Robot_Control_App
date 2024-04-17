@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/hello_publisher/lib/hello_publisher/move_group_python_interface_tutorial.py

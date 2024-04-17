@@ -1,0 +1,25 @@
+[  4%] Built target controller_manager_example
+[ 12%] Built target ros_api_tutorial
+[ 16%] Built target interactivity_utils
+[ 20%] Built target motion_planning_api_tutorial
+[ 25%] Built target motion_planning_pipeline_tutorial
+[ 29%] Built target move_group_interface_tutorial
+[ 33%] Built target bag_publisher_maintain_time
+[35m[1mScanning dependencies of target continous[0m
+[ 37%] Built target detect_and_add_cylinder_collision_object_demo
+[ 41%] Built target direction
+[ 45%] Built target planning_scene_tutorial
+[ 50%] Built target planning_scene_ros_api_tutorial
+[ 54%] Built target pick_place_tutorial
+[ 58%] Built target robot_model_and_robot_state_tutorial
+[ 62%] Built target state_display_tutorial
+[ 66%] Built target subframes_tutorial
+[ 68%] [32mBuilding CXX object doc/pick_place/CMakeFiles/continous.dir/src/continous.cpp.o[0m
+[ 72%] Built target trajopt_example
+[ 77%] Built target lerp_example
+[ 85%] Built target moveit_lerp_planner_plugin
+[ 89%] Built target moveit_cpp_tutorial
+[ 93%] Built target bullet_collision_checker_tutorial
+[ 97%] Built target visualizing_collisions_tutorial
+[100%] [32m[1mLinking CXX executable /home/pranjal/ws_moveit/devel/.private/robotcontrolapp/lib/robotcontrolapp/continous[0m
+[100%] Built target continous

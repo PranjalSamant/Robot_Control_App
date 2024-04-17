@@ -1,0 +1,1 @@
+/home/pranjal/ws_moveit/devel/.private/robotcontrolapp/lib/robotcontrolapp/move_group_python_interface_tutorial.py

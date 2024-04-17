@@ -1,0 +1,8 @@
+prefix=/home/pranjal/ws_moveit/install
+
+Name: rosbridge_server
+Description: Description of rosbridge_server
+Version: 0.11.17
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

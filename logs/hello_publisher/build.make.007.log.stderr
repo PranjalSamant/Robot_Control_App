@@ -1,0 +1,95 @@
+In file included from [01m[K/usr/include/c++/9/cmath:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:55[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:1[m[K:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:11:14:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before numeric constant
+   11 | const double [01;31m[KM_PI[m[K = 3.14159265358979323846;
+      |              [01;31m[K^~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid pick(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:48:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+   48 |     orientation.setRPY(-[01;31m[Ktau[m[K / 4, -tau / 8, -tau / 4);
+      |                         [01;31m[K^~~[m[K
+      |                         [32m[Ktan[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:64:26:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Ktrajectory_msgs::JointTrajectory&[m[K’ {aka ‘[01m[Ktrajectory_msgs::JointTrajectory_<std::allocator<void> >&[m[K’} from expression of type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<moveit_msgs::Grasp_<std::allocator<void> > >, moveit_msgs::Grasp_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kmoveit_msgs::Grasp_<std::allocator<void> >[m[K’}
+   64 |     openGripper(grasps[0][01;31m[K)[m[K; // Adjusted to use moveit_msgs::Grasp
+      |                          [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:14:52:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid openGripper(trajectory_msgs::JointTrajectory&)[m[K’
+   14 | void openGripper([01;36m[Ktrajectory_msgs::JointTrajectory& posture[m[K)
+      |                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kvoid place(moveit::planning_interface::MoveGroupInterface&)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:77:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktau[m[K’ was not declared in this scope; did you mean ‘[01m[Ktan[m[K’?
+   77 |     orientation.setRPY(0, 0, [01;31m[Ktau[m[K / 4);
+      |                              [01;31m[K^~~[m[K
+      |                              [32m[Ktan[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K At global scope:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:162:42:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  162 | void gripperOpenCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:162:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  162 | void gripperOpenCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:162:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  162 | void gripperOpenCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                         [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                          [32m[K)[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:162:60:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  162 | void gripperOpenCallback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:170:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  170 | void gripperCloseCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+      |                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:170:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  170 | void gripperCloseCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:170:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  170 | void gripperCloseCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                          [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:170:61:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  170 | void gripperCloseCallback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:178:35:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  178 | void pickCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:178:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  178 | void pickCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:178:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  178 | void pickCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                  [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                   [32m[K)[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:178:53:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  178 | void pickCallback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:184:36:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  184 | void placeCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:184:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  184 | void placeCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:184:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  184 | void placeCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+      |                   [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                    [32m[K)[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:184:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+  184 | void placeCallback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+      |                                                      [01;31m[K^~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:201:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+  201 |     [01;31m[Kgroup_ptr[m[K = &group;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:205:73:[m[K [01;31m[Kerror: [m[K‘[01m[KgripperOpenCallback[m[K’ was not declared in this scope
+  205 |     ros::Subscriber sub_gripper_open = nh.subscribe("gripper_open", 10, [01;31m[KgripperOpenCallback[m[K);
+      |                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:206:75:[m[K [01;31m[Kerror: [m[K‘[01m[KgripperCloseCallback[m[K’ was not declared in this scope
+  206 |     ros::Subscriber sub_gripper_close = nh.subscribe("gripper_close", 10, [01;31m[KgripperCloseCallback[m[K);
+      |                                                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:207:57:[m[K [01;31m[Kerror: [m[K‘[01m[KpickCallback[m[K’ was not declared in this scope
+  207 |     ros::Subscriber sub_pick = nh.subscribe("pick", 10, [01;31m[KpickCallback[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/hello_publisher/scripts/robot.cpp:208:59:[m[K [01;31m[Kerror: [m[K‘[01m[KplaceCallback[m[K’ was not declared in this scope
+  208 |     ros::Subscriber sub_place = nh.subscribe("place", 10, [01;31m[KplaceCallback[m[K);
+      |                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hello_publisher.dir/build.make:63: CMakeFiles/hello_publisher.dir/scripts/robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:784: CMakeFiles/hello_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

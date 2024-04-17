@@ -1,0 +1,10 @@
+file(REMOVE_RECURSE
+  "/home/pranjal/ws_moveit/devel/.private/robotcontrolapp/lib/robotcontrolapp/visualizing_collisions_tutorial"
+  "/home/pranjal/ws_moveit/devel/.private/robotcontrolapp/lib/robotcontrolapp/visualizing_collisions_tutorial.pdb"
+  "CMakeFiles/visualizing_collisions_tutorial.dir/src/visualizing_collisions_tutorial.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/visualizing_collisions_tutorial.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

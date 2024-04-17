@@ -1,0 +1,57 @@
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:5:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ does not name a type; did you mean ‘[01m[Kmode_t[m[K’?
+    5 | [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface* group_ptr = nullptr;
+      | [01;31m[K^~~~~~[m[K
+      | [32m[Kmode_t[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kvoid moveUp()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   10 |     [01;31m[Kgeometry_msgs[m[K::Pose target_pose = group_ptr->getCurrentPose().pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   11 |     [01;31m[Ktarget_pose[m[K.position.z += 0.1; // Move up by 10 cm
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   12 |     [01;31m[Kgroup_ptr[m[K->setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kvoid moveDown()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   18 |     [01;31m[Kgeometry_msgs[m[K::Pose target_pose = group_ptr->getCurrentPose().pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   19 |     [01;31m[Ktarget_pose[m[K.position.z -= 0.1; // Move down by 10 cm
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   20 |     [01;31m[Kgroup_ptr[m[K->setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kvoid moveLeft()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   26 |     [01;31m[Kgeometry_msgs[m[K::Pose target_pose = group_ptr->getCurrentPose().pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   27 |     [01;31m[Ktarget_pose[m[K.position.y -= 0.1; // Move left by 10 cm
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   28 |     [01;31m[Kgroup_ptr[m[K->setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kvoid moveRight()[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   34 |     [01;31m[Kgeometry_msgs[m[K::Pose target_pose = group_ptr->getCurrentPose().pose;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose[m[K’ was not declared in this scope
+   35 |     [01;31m[Ktarget_pose[m[K.position.y += 0.1; // Move right by 10 cm
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   36 |     [01;31m[Kgroup_ptr[m[K->setPoseTarget(target_pose);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoveit[m[K’ has not been declared
+   63 |     [01;31m[Kmoveit[m[K::planning_interface::MoveGroupInterface group("panda_arm");
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup[m[K’ was not declared in this scope
+   64 |     [01;31m[Kgroup[m[K.setPlanningTime(45.0);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/pranjal/ws_moveit/src/moveit_tutorials/doc/pick_place/src/pick_place_tutorial.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgroup_ptr[m[K’ was not declared in this scope
+   67 |     [01;31m[Kgroup_ptr[m[K = &group;
+      |     [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [doc/pick_place/CMakeFiles/pick_place_tutorial.dir/build.make:63: doc/pick_place/CMakeFiles/pick_place_tutorial.dir/src/pick_place_tutorial.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4361: doc/pick_place/CMakeFiles/pick_place_tutorial.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
